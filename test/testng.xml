@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite1 name="Suite1">
+  <test1 thread-count="5" name="Test1">
+   <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="test.searchjob"/>
+    </classes>
+  </test1> 
+</suite1> 
